@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo-automation",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas para SauceDemo con Playwright y TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "test:android": "playwright test --project=android",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": ["playwright", "typescript", "automation", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
