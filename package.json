@@ -10,7 +10,8 @@
     "test:android": "playwright test --project=android",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report",
-    "install:browsers": "playwright install"
+    "install:browsers": "playwright install",
+    "build": "tsc"
   },
   "keywords": ["playwright", "typescript", "automation", "testing"],
   "author": "",
